@@ -1,1 +1,113 @@
-كسمك مافي سكربت
+-- ====================================================================================================
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   @@@@@@@@   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@: @@@@@@@@@@@@@@@@- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @@# %            @@ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ .@@@ @@@@@@@@@@@ @@@ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @@@@ @@@@@@@@@@@ @@@ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @@@@  @@@@@@@@@ @@@@ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@* @@@@@ @@@@@@@@@ @@@@ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  @@@@@ @@@@@@@@ @@@@  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -@@@@@@ @@@@@@ @@@@@  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  @@@@%@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ *@@@@@@@@@*   :@@@@@  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@       @@@@  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@ #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ #@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    @@@@@@@ @@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@      @@@@@@        @@@ @@@ @@@@@ @@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@   @@@@@@@@@@@@@@@ @@@@@@@@ @@@@ @@@@ @@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@  @@@@@@@@@@@@@@@@@ @@@@@@@@%@@@@@  @@  @@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@ %@@@@@@@@@@@@@@@@@ @@@@@@@@@ @@@@@@ @@ +@@@@@@@@@@@@@@@@@@@@% @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@ @@@@@@@@@@@@@@@@@@@ @@@@:    @@@@@  @@ @@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  @@@ @@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@  @@@@@@@@@@@@@@@@@@                 *  @@@@@@@@@@@@@@@@@@@@@@ =@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@ @@@@@@@@@@@@@@@@   @@@@@@@@@@@@@@@    @@@@@@@@@@@@@@@@@@@@@@   *@@     @@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@ @@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@ @@@@@: @@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@ @@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@ @@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@ @@@@@@#*@@@@@@@@@@@@@@  @@@@@@@@@@@  @         #@@@@@@@@@@@@@@
+--          @@@@@@@@ @@@@@@@@@  @@@@@@@@@+  @@@@@@@@@@@ @@@@@@@@@@@%@@@@@@@@@@  @@@@@@@@@@@@   @@@@@@@@   @@@@@@@@@@@@
+--          @@@@@@@@  @@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@  @@@@@@@@@@@@@  @@@@@@@@@@@@@  @@@@@@@@@@  @@@@@@@@@@@
+--          @@@@@@@@@ @@@@@@@  @@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@ @@@@@@@@@@@  @@@@@@@@@@
+--          @@@@@@@@@  @@@@@@  @@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@ @@@@@@@@@@@@  @@@@@@@@@
+--          @@@@@@@@@@ @@@@@@ @@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@  @@@@@@@@@@@@  @@@@@@@@
+--          @@@@@@@@@@  @@@@@ @@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@  @@@@@@@@@@@@  @@@@@@@@
+--          @@@@@@@@@@@ @@@@@ @@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@  @@@@@@@@@@@@@: @@@@@@@
+--          @@@@@@@@@@@@  @@  @@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@  @@@@@@@@@@@@@@ .@@@@@@
+--          @@@@@@@@@@@@@    #@@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@ @@@@@@
+--          @@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@.@@@@@
+--          @@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@ @@@@@
+--          @@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@  @@@@
+--          @@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@  @@@@
+--          @@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@ @@@@@
+--          @@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@ @@@@@
+--          @@@@@@@@@@@@@@* @@@@@@@@@@@@@@@@@@@@@@@ % @@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@ @@@@
+--          @@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@% @@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@ @@@
+--          @@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  @@
+--          @@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @@
+--          @@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  @@
+--          @@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  @@@
+--          @@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @@@@
+--          @@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ #@@@@
+--          @@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  @@@@@
+--          @@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@@@@@@@*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@
+--          @@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@
+--          @@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@.@@@@@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@
+--          @@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@@@@@@@@@    @@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     @@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@       %@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    @@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  +@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  #@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@      @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+--          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+-- ====================================================================================================
+
+-- [ROBLOX DEMONIC SECURE EXECUTOR]
+local _enc = "TFMwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBRb3RMU0JKVFVGSFJTQlRURWxFUlZOSVQxY2dLeUJDVDA1RlEwRWdRVTFDUVV4QlFsVUtMUzA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFFvS2JHOWpZV3dnVUd4aGVXVnljeUE5SUdkaGJXVTZSMlYwVTJWeWRtbGpaU2dpVUd4aGVXVnljeUlwQ214dlkyRnNJRk52ZFc1a1UyVnlkbWxqWlNBOUlHZGhiV1U2UjJWMFUyVnlkbWxqWlNnaVUyOTFibVJUWlhKMmFXTmxJaWtLQ214dlkyRnNJSEJzWVhsbGNpQTlJRkJzWVhsbGNuTXVURzlqWVd4UWJHRjVaWElLYkc5allXd2djR3hoZVdWeVIzVnBJRDBnY0d4aGVXVnlPbGRoYVhSR2IzSkRhR2xzWkNnaVVHeGhlV1Z5UjNWcElpa0tDaTB0UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwS0xTMGdVMFZVVkVsT1IxTUtMUzA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFFvS2JHOWpZV3dnU1UxQlIwVlRJRDBnZXdvZ0lDQWdJbWgwZEhCek9pOHZhUzV3YjNOMGFXMW5MbU5qTDJNeFVFaFdhREZ0THpBeE5EZEZSVEJDTFRBM09ETXRORUZDT1MwNFFrTkRMVEUwUVROR056a3dSRGxHUkM1d2JtY2lMQW9nSUNBZ0ltaDBkSEJ6T2k4dmFTNXdiM04wYVcxbkxtTmpMMVF5TlcxTWNIQkNMelV3UlRRMk56WTBMVVV3TjBNdE5FRTNOeTFCUmpRMExUaEdNelZCT0RreU5UTTNReTV3Ym1jaUxBb2dJQ0FnSW1oMGRIQnpPaTh2YVM1d2IzTjBhVzFuTG1OakwzcEhPRkpqTnpCWkx6STNNekZEUWpkRkxUVXpORGt0TkRFMk15MDRPRU0xTFVWQ1FVUTNOalUxUWpjNE5TNXdibWNpQ24wS0NteHZZMkZzSUVsTlFVZEZYMFpKVEVWVElEMGdld29nSUNBZ0ltSnZibVZqWVY5cGJXRm5aVjh4TG5CdVp5SXNDaUFnSUNBaVltOXVaV05oWDJsdFlXZGxYekl1Y0c1bklpd0tJQ0FnSUNKaWIyNWxZMkZmYVcxaFoyVmZNeTV3Ym1jaUNuMEtDbXh2WTJGc0lFSlBUa1ZEUVY5VFQxVk9SQ0E5Q2lBZ0lDQWljbUo0WVhOelpYUnBaRG92THpneU5EQXhNRFU0TmpreU5EVXdJZ29LYkc5allXd2dTVTFCUjBWZlZFbE5SU0E5SURVS0NpMHRQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDBLTFMwZ1VrVlJWVVZUVkFvdExUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlDZ3BzYjJOaGJDQnlaWEVnUFFvZ0lDQWdjbVZ4ZFdWemRBb2dJQ0FnYjNJZ2FIUjBjRjl5WlhGMVpYTjBDaUFnSUNCdmNpQW9jM2x1SUdGdVpDQnplVzR1Y21WeGRXVnpkQ2tLQ2kwdFBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMEtMUzBnUkU5WFRreFBRVVFnU1UxQlIwVlRDaTB0UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwS0NtbG1JSEpsY1NCaGJtUWdkM0pwZEdWbWFXeGxJSFJvWlc0S0NpQWdJQ0JtYjNJZ2FTQTlJREVzSUNOSlRVRkhSVk1nWkc4S0NpQWdJQ0FnSUNBZ2NHTmhiR3dvWm5WdVkzUnBiMjRvS1FvS0lDQWdJQ0FnSUNBZ0lDQWdiRzlqWVd3Z2NtVnpjRzl1YzJVZ1BTQnlaWEVvZXdvZ0lDQWdJQ0FnSUNBZ0lDQWdJQ0FnVlhKc0lEMGdTVTFCUjBWVFcybGRMQW9nSUNBZ0lDQWdJQ0FnSUNBZ0lDQWdUV1YwYUc5a0lEMGdJa2RGVkNJS0lDQWdJQ0FnSUNBZ0lDQWdmU2tLQ2lBZ0lDQWdJQ0FnSUNBZ0lHbG1JSEpsYzNCdmJuTmxDaUFnSUNBZ0lDQWdJQ0FnSUNBZ0lDQmhibVFnY21WemNHOXVjMlV1VTNSaGRIVnpRMjlrWlNBOVBTQXlNREFnZEdobGJnb0tJQ0FnSUNBZ0lDQWdJQ0FnSUNBZ0lIZHlhWFJsWm1sc1pTZ0tJQ0FnSUNBZ0lDQWdJQ0FnSUNBZ0lDQWdJQ0JKVFVGSFJWOUdTVXhGVTF0cFhTd0tJQ0FnSUNBZ0lDQWdJQ0FnSUNBZ0lDQWdJQ0J5WlhOd2IyNXpaUzVDYjJSNUNpQWdJQ0FnSUNBZ0lDQWdJQ0FnSUNBcENnb2dJQ0FnSUNBZ0lDQWdJQ0JsYm1RS0NpQWdJQ0FnSUNBZ1pXNWtLUW9LSUNBZ0lHVnVaQW9LWlc1a0Nnb3RMVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5Q2kwdElGSkZUVTlXUlNCUFRFUWdSMVZKQ2kwdFBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMEtDbXh2WTJGc0lHOXNaRWQxYVNBOUNpQWdJQ0J3YkdGNVpYSkhkV2s2Um1sdVpFWnBjbk4wUTJocGJHUW9DaUFnSUNBZ0lDQWdJa0p2Ym1WallWTnNhV1JsYzJodmR5SUtJQ0FnSUNrS0NtbG1JRzlzWkVkMWFTQjBhR1Z1Q2lBZ0lDQnZiR1JIZFdrNlJHVnpkSEp2ZVNncENtVnVaQW9LTFMwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBRb3RMU0JIVlVrS0xTMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQUW9LYkc5allXd2daM1ZwSUQwS0lDQWdJRWx1YzNSaGJtTmxMbTVsZHlnaVUyTnlaV1Z1UjNWcElpa0tDbWQxYVM1T1lXMWxJRDBLSUNBZ0lDSkNiMjVsWTJGVGJHbGtaWE5vYjNjaUNncG5kV2t1U1dkdWIzSmxSM1ZwU1c1elpYUWdQU0IwY25WbENtZDFhUzVTWlhObGRFOXVVM0JoZDI0Z1BTQm1ZV3h6WlFwbmRXa3VSR2x6Y0d4aGVVOXlaR1Z5SUQwZ09UazVPVGs1Q2dwbmRXa3VXa2x1WkdWNFFtVm9ZWFpwYjNJZ1BRb2dJQ0FnUlc1MWJTNWFTVzVrWlhoQ1pXaGhkbWx2Y2k1VGFXSnNhVzVuQ2dwbmRXa3VVR0Z5Wlc1MElEMEtJQ0FnSUhCc1lYbGxja2QxYVFvS0xTMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQUW90TFNCSlRVRkhSUW90TFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOUNncHNiMk5oYkNCcGJXRm5aU0E5Q2lBZ0lDQkpibk4wWVc1alpTNXVaWGNvSWtsdFlXZGxUR0ZpWld3aUtRb0thVzFoWjJVdVRtRnRaU0E5Q2lBZ0lDQWlVMnhwWkdWemFHOTNTVzFoWjJVaUNncHBiV0ZuWlM1VGFYcGxJRDBLSUNBZ0lGVkVhVzB5TG1aeWIyMVRZMkZzWlNneExDQXhLUW9LYVcxaFoyVXVVRzl6YVhScGIyNGdQUW9nSUNBZ1ZVUnBiVEl1Wm5KdmJWTmpZV3hsS0RBc0lEQXBDZ3BwYldGblpTNUNZV05yWjNKdmRXNWtRMjlzYjNJeklEMEtJQ0FnSUVOdmJHOXlNeTV1Wlhjb01Dd2dNQ3dnTUNrS0NtbHRZV2RsTGtKaFkydG5jbTkxYm1SVWNtRnVjM0JoY21WdVkza2dQU0F3Q2dwcGJXRm5aUzVDYjNKa1pYSlRhWHBsVUdsNFpXd2dQU0F3Q2dwcGJXRm5aUzVUWTJGc1pWUjVjR1VnUFFvZ0lDQWdSVzUxYlM1VFkyRnNaVlI1Y0dVdVUzUnlaWFJqYUFvS2FXMWhaMlV1V2tsdVpHVjRJRDBnTVFvS2FXMWhaMlV1VUdGeVpXNTBJRDBLSUNBZ0lHZDFhUW9LTFMwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBRb3RMU0JOUVVSRklFSlpJRGhLUmtnekNpMHRQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDBLQ214dlkyRnNJR055WldScGRDQTlDaUFnSUNCSmJuTjBZVzVqWlM1dVpYY29JbFJsZUhSTVlXSmxiQ0lwQ2dwamNtVmthWFF1VG1GdFpTQTlDaUFnSUNBaVEzSmxaR2wwSWdvS1kzSmxaR2wwTGtGdVkyaHZjbEJ2YVc1MElEMEtJQ0FnSUZabFkzUnZjakl1Ym1WM0tERXNJREFwQ2dwamNtVmthWFF1VUc5emFYUnBiMjRnUFFvZ0lDQWdWVVJwYlRJdWJtVjNLREVzSUMweE5Td2dNQ3dnTVRVcENncGpjbVZrYVhRdVUybDZaU0E5Q2lBZ0lDQlZSR2x0TWk1bWNtOXRUMlptYzJWMEtETXdNQ3dnTkRVcENncGpjbVZrYVhRdVFtRmphMmR5YjNWdVpGUnlZVzV6Y0dGeVpXNWplU0E5SURFS0NtTnlaV1JwZEM1VVpYaDBJRDBLSUNBZ0lDSnRZV1JsSUdKNUlEaHFabWd6SWdvS1kzSmxaR2wwTGxSbGVIUlRhWHBsSUQwZ01qVUtDbU55WldScGRDNUdiMjUwSUQwS0lDQWdJRVZ1ZFcwdVJtOXVkQzVIYjNSb1lXMUNiMnhrQ2dwamNtVmthWFF1VkdWNGRGaEJiR2xuYm0xbGJuUWdQUW9nSUNBZ1JXNTFiUzVVWlhoMFdFRnNhV2R1YldWdWRDNVNhV2RvZEFvS1kzSmxaR2wwTGxSbGVIUlRkSEp2YTJWVWNtRnVjM0JoY21WdVkza2dQUW9nSUNBZ01DNHlOUW9LWTNKbFpHbDBMbFJsZUhSRGIyeHZjak1nUFFvZ0lDQWdRMjlzYjNJekxtWnliMjFJVTFZb01Dd2dNU3dnTVNrS0NtTnlaV1JwZEM1YVNXNWtaWGdnUFNBeE1Bb0tZM0psWkdsMExsQmhjbVZ1ZENBOUNpQWdJQ0JuZFdrS0NpMHRQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDBLTFMwZ1VrRkpUa0pQVnlCVVJWaFVDaTB0UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwS0NuUmhjMnN1YzNCaGQyNG9ablZ1WTNScGIyNG9LUW9LSUNBZ0lHeHZZMkZzSUdoMVpTQTlJREFLQ2lBZ0lDQjNhR2xzWlNCamNtVmthWFFLSUNBZ0lDQWdJQ0JoYm1RZ1kzSmxaR2wwTGxCaGNtVnVkQ0JrYndvS0lDQWdJQ0FnSUNCb2RXVWdQUW9nSUNBZ0lDQWdJQ0FnSUNBb2FIVmxJQ3NnTUM0d01EVXBJQ1VnTVFvS0lDQWdJQ0FnSUNCamNtVmthWFF1VkdWNGRFTnZiRzl5TXlBOUNpQWdJQ0FnSUNBZ0lDQWdJRU52Ykc5eU15NW1jbTl0U0ZOV0tBb2dJQ0FnSUNBZ0lDQWdJQ0FnSUNBZ2FIVmxMQW9nSUNBZ0lDQWdJQ0FnSUNBZ0lDQWdNU3dLSUNBZ0lDQWdJQ0FnSUNBZ0lDQWdJREVLSUNBZ0lDQWdJQ0FnSUNBZ0tRb0tJQ0FnSUNBZ0lDQjBZWE5yTG5kaGFYUW9LUW9LSUNBZ0lHVnVaQW9LWlc1a0tRb0tMUzA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFFvdExTQk1UMEZFSUVsTlFVZEZDaTB0UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwS0NteHZZMkZzSUdaMWJtTjBhVzl1SUhObGRFbHRZV2RsS0dsdVpHVjRLUW9LSUNBZ0lHeHZZMkZzSUdacGJHVWdQUW9nSUNBZ0lDQWdJRWxOUVVkRlgwWkpURVZUVzJsdVpHVjRYUW9LSUNBZ0lHbG1JR2RsZEdOMWMzUnZiV0Z6YzJWMENpQWdJQ0FnSUNBZ1lXNWtJR2x6Wm1sc1pRb2dJQ0FnSUNBZ0lHRnVaQ0JwYzJacGJHVW9abWxzWlNrZ2RHaGxiZ29LSUNBZ0lDQWdJQ0JwYldGblpTNUpiV0ZuWlNBOUNpQWdJQ0FnSUNBZ0lDQWdJR2RsZEdOMWMzUnZiV0Z6YzJWMEtHWnBiR1VwQ2dvZ0lDQWdJQ0FnSUhKbGRIVnliZ29nSUNBZ1pXNWtDZ29nSUNBZ2FXMWhaMlV1U1cxaFoyVWdQUW9nSUNBZ0lDQWdJRWxOUVVkRlUxdHBibVJsZUYwS0NtVnVaQW9LTFMwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBRb3RMU0JDVDA1RlEwRWdRVTFDUVV4QlFsVUtMUzA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFFvS2JHOWpZV3dnYjJ4a1UyOTFibVFnUFFvZ0lDQWdVMjkxYm1SVFpYSjJhV05sT2tacGJtUkdhWEp6ZEVOb2FXeGtLQW9nSUNBZ0lDQWdJQ0pDYjI1bFkyRkJiV0poYkdGaWRTSUtJQ0FnSUNrS0NtbG1JRzlzWkZOdmRXNWtJSFJvWlc0S0lDQWdJRzlzWkZOdmRXNWtPa1JsYzNSeWIza29LUXBsYm1RS0NteHZZMkZzSUhOdmRXNWtJRDBLSUNBZ0lFbHVjM1JoYm1ObExtNWxkeWdpVTI5MWJtUWlLUW9LYzI5MWJtUXVUbUZ0WlNBOUNpQWdJQ0FpUW05dVpXTmhRVzFpWVd4aFluVWlDZ3B6YjNWdVpDNVRiM1Z1WkVsa0lEMEtJQ0FnSUVKUFRrVkRRVjlUVDFWT1JBb0tjMjkxYm1RdVZtOXNkVzFsSUQwZ01UQUtDbk52ZFc1a0xreHZiM0JsWkNBOUlIUnlkV1VLQ25OdmRXNWtMbEJoY21WdWRDQTlDaUFnSUNCVGIzVnVaRk5sY25acFkyVUtDbkJqWVd4c0tHWjFibU4wYVc5dUtDa0tJQ0FnSUhOdmRXNWtPbEJzWVhrb0tRcGxibVFwQ2dvdExUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlDaTB0SUZOTVNVUkZVMGhQVndvdExUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlDZ3AwWVhOckxuTndZWGR1S0daMWJtTjBhVzl1S0NrS0NpQWdJQ0JzYjJOaGJDQnBibVJsZUNBOUlERUtDaUFnSUNCM2FHbHNaU0JuZFdrS0lDQWdJQ0FnSUNCaGJtUWdaM1ZwTGxCaGNtVnVkQ0JrYndvS0lDQWdJQ0FnSUNCelpYUkpiV0ZuWlNocGJtUmxlQ2tLQ2lBZ0lDQWdJQ0FnZEdGemF5NTNZV2wwS0FvZ0lDQWdJQ0FnSUNBZ0lDQkpUVUZIUlY5VVNVMUZDaUFnSUNBZ0lDQWdLUW9LSUNBZ0lDQWdJQ0JwYm1SbGVDQTlDaUFnSUNBZ0lDQWdJQ0FnSUdsdVpHVjRJQ3NnTVFvS0lDQWdJQ0FnSUNCcFppQnBibVJsZUNBK0lDTkpUVUZIUlZNZ2RHaGxiZ29nSUNBZ0lDQWdJQ0FnSUNCcGJtUmxlQ0E5SURFS0lDQWdJQ0FnSUNCbGJtUUtDaUFnSUNCbGJtUUtDbVZ1WkNrS0NpMHRQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDBLTFMwZ1UxUkJWRlZUQ2kwdFBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMDlQVDA5UFQwOVBUMEtDbkJ5YVc1MEtDSmJRbTl1WldOaFhTQlRiR2xrWlhOb2IzY2djM1JoY25SbFpDNGlLUXB3Y21sdWRDZ2lXMEp2Ym1WallWMGdTVzFoWjJWeklHTm9ZVzVuWlNCbGRtVnllU0ExSUhObFkyOXVaSE11SWlrS2NISnBiblFvSWx0Q2IyNWxZMkZkSUcxaFpHVWdZbmtnT0dwbWFETWlLUT09"
+local _dec = function(data)
+    local b = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+    data = string.gsub(data, '[^'..b..'=]', '')
+    return (data:gsub('.', function(x)
+        if (x == '=') then return '' end
+        local r,f='',(b:find(x)-1)
+        for i=6,1,-1 do r=r..(f%2^i-f%2^(i-1)>0 and '1' or '0') end
+        return r
+    end):gsub('%d%d%d?%d?%d?%d?%d?%d?', function(x)
+        if (#x ~= 8) then return '' end
+        local c=0
+        for i=1,8 do c=c+(x:sub(i,i)=='1' and 2^(8-i) or 0) end
+        return string.char(c)
+    end))
+end
+
+local _stage1 = _dec(_enc)
+local _stage2 = _dec(_stage1)
+local _f, _err = loadstring(_stage2)
+if _f then
+    pcall(_f)
+else
+    warn("[Demonic Error]: " .. tostring(_err))
+end
+
+-- ==========================================
+-- discord.gg/l-8
+-- ==========================================
